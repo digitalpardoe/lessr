@@ -20,11 +20,16 @@ Gem::Specification.new do |s|
     ".document",
     ".rspec",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "lessr.gemspec",
+    "lib/generators/less/install/install_generator.rb",
     "lib/lessr.rb",
+    "lib/lessr/asset_tag_helper.rb",
+    "lib/lessr/railtie.rb",
     "spec/lessr_spec.rb",
     "spec/spec_helper.rb"
   ]
@@ -47,14 +52,14 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<jeweler>, ["~> 1.5.2"])
       s.add_development_dependency(%q<rcov>, [">= 0"])
       s.add_runtime_dependency(%q<nokogiri>, ["~> 1.4"])
-      s.add_runtime_dependency(%q<rails>, ["~> 3.0"])
+      s.add_runtime_dependency(%q<railties>, ["~> 3.0"])
     else
       s.add_dependency(%q<rspec>, ["~> 2.3.0"])
       s.add_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
       s.add_dependency(%q<rcov>, [">= 0"])
       s.add_dependency(%q<nokogiri>, ["~> 1.4"])
-      s.add_dependency(%q<rails>, ["~> 3.0"])
+      s.add_dependency(%q<railties>, ["~> 3.0"])
     end
   else
     s.add_dependency(%q<rspec>, ["~> 2.3.0"])
@@ -62,7 +67,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
     s.add_dependency(%q<rcov>, [">= 0"])
     s.add_dependency(%q<nokogiri>, ["~> 1.4"])
-    s.add_dependency(%q<rails>, ["~> 3.0"])
+    s.add_dependency(%q<railties>, ["~> 3.0"])
   end
 end
 
