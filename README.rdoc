@@ -4,15 +4,15 @@ Lessr is a small gem that provides helper methods to include LESS[http://lesscss
 
 To include LESS stylesheets add the following in your template header (this <b>must</b> be above the JavaScript tags that include LESS):
 
-	<%= less_link_tag :all %>
+ <%= less_link_tag :all %>
 
 Other options include:
 
-	<%= less_link_tag :all, :recursive => true %>
+ <%= less_link_tag :all, :recursive => true %>
 	
 Or:
 
-	<%= less_link_tag 'some/stylesheet' %>
+ <%= less_link_tag 'some/stylesheet' %>
 	
 Just like <tt>stylesheet_link_tag</tt> but without the caching or concatenation (for now).
 
