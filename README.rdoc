@@ -2,11 +2,9 @@
 
 Lessr is a small gem that provides helper methods to include LESS[http://lesscss.org/] stylesheets in your templates in the same way you'd normally include CSS stylesheets. It also provides a single generator to download and install the latest version of <em>less.min.js</em> & application configuration to make sure it appears in the <tt><%= javascript_include_tag :defaults %></tt> tag in your header.
 
-To include LESS stylesheets add:
+To include LESS stylesheets add the following in your template header (this <b>must</b> be above the JavaScript tags that include LESS):
 
 	<%= less_link_tag :all %>
-	
-In your template header (this <b>must</b> be above the JavaScript tags that include LESS).
 
 Other options include:
 
