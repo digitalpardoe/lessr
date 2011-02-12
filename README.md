@@ -2,6 +2,22 @@
 
 Lessr is a small gem that provides helper methods to include [LESS](http://lesscss.org/) stylesheets in your templates in the same way you'd normally include CSS stylesheets. It also provides a single generator to download and install the latest version of _less.min.js_ & application configuration to make sure it appears in the `<%= javascript_include_tag :defaults %>` tag in your header.
 
+Just add the gem to your _Gemfile_:
+
+    gem 'lessr', '1.0.0'
+    
+Easy.
+
+## Installing The Script
+
+To get the latest copy of of LESS:
+
+    rails g less:install
+
+By default the gem will add LESS to your `javascript_expansions[:defaults]` array, if you've overridden this in you _application.rb_ don't forget to add `less.min` to it.
+
+## Using The Helpers
+
 To include LESS stylesheets add the following in your template header (this *must* be above the JavaScript tags that include LESS):
 
     <%= less_link_tag :all %>
