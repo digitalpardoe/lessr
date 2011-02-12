@@ -15,8 +15,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "lessr"
   gem.homepage = "http://github.com/digitalpardoe/lessr"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Give you Rails app a little LESS CSS and a little more style.}
+  gem.description = %Q{Lessr makes LESS integration with your Rails app easy, a generator to download the latest version of LESS and helper methods to include stylesheets in your layouts.}
   gem.email = "contact@digitalpardoe.co.uk"
   gem.authors = ["digital:pardoe"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,

@@ -10,11 +10,11 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["digital:pardoe"]
   s.date = %q{2011-02-12}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Lessr makes LESS integration with your Rails app easy, a generator to download the latest version of LESS and helper methods to include stylesheets in your layouts.}
   s.email = %q{contact@digitalpardoe.co.uk}
   s.extra_rdoc_files = [
     "LICENSE.txt",
-    "README.rdoc"
+    "README.md"
   ]
   s.files = [
     ".document",
@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
-    "README.rdoc",
+    "README.md",
     "Rakefile",
     "VERSION",
     "lessr.gemspec",
@@ -37,7 +37,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.5.0}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{Give you Rails app a little LESS CSS and a little more style.}
   s.test_files = [
     "spec/lessr_spec.rb",
     "spec/spec_helper.rb"
