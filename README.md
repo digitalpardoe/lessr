@@ -1,5 +1,7 @@
 # Lessr
 
+[![Project Status: Unsupported - The project has reached a stable, usable state but the author(s) have ceased all work on it. A new maintainer may be desired.](http://www.repostatus.org/badges/latest/unsupported.svg)](http://www.repostatus.org/#unsupported)
+
 Lessr is a small gem that provides helper methods to include [LESS](http://lesscss.org/) stylesheets in your templates in the same way you'd normally include CSS stylesheets. It also provides a single generator to download and install the latest version of _less.min.js_ & application configuration to make sure it appears in the `<%= javascript_include_tag :defaults %>` tag in your header.
 
 Just add the gem to your _Gemfile_:
